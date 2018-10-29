@@ -2,6 +2,6 @@ stages:
 - name: Build
   steps:
   - runScriptConfig:
-      image: php:latest
+      image: node:latest
       shellScript: npm install
 timeout: 60
