@@ -3,5 +3,8 @@ stages:
   steps:
   - runScriptConfig:
       image: node:latest
-      shellScript: npm install
+      shellScript: |-
+        npm install
+        node -v
+        npm -v
 timeout: 60
