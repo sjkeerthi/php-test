@@ -4,9 +4,4 @@ stages:
   - runScriptConfig:
       image: php:latest
       shellScript: npm install
-- name: php
-  steps:
-  - runScriptConfig:
-      image: php:5.6
-      shellScript: php --version
 timeout: 60
